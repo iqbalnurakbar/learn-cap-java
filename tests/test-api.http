@@ -1,0 +1,37 @@
+### Get All Authors
+GET http://localhost:8080/odata/v4/books/Authors
+
+### Get All Books
+GET http://localhost:8080/odata/v4/books/Books
+
+### Create a Author
+POST http://localhost:8080/odata/v4/books/Authors
+Content-Type: application/json
+
+{
+  "name": "Iqbal Nur Akbar",
+  "bio": "ABAP Programmer at HAND Indonesia"
+
+}
+
+### Create a Author
+POST http://localhost:8080/odata/v4/books/Authors
+Content-Type: application/json
+
+{
+  "name": "Iqbal Nur Akbar",
+  "bio": "ABAP Programmer at HAND Indonesia"
+
+}
+
+
+### Create a Book
+POST http://localhost:8080/odata/v4/books/Books
+Content-Type: application/json
+
+{
+  "author_ID": "597d8906-7527-4715-8144-79dbd6e3cba7",
+  "descr": "Best Seller Book",
+  "stock": 10
+
+}
