@@ -31,6 +31,7 @@ Content-Type: application/json
 
 {
   "author_ID": "597d8906-7527-4715-8144-79dbd6e3cba7",
+  "title": "Harry",
   "descr": "Best Seller Book",
   "stock": 10
 
