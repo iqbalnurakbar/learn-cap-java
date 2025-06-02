@@ -47,7 +47,7 @@ public class BookServiceHandler implements EventHandler {
         if (!authorExists) {
             throw new RuntimeException("Author with ID " + authorID + " does not exist!");
         }
-        
+
         System.out.println("Author exists: " + authorExists);
     }
 }

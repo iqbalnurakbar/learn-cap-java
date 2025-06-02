@@ -1,6 +1,6 @@
 code,symbol,minorUnit,name,descr
-861,63861,34,name-23363861,descr-23363861
-795,36795,85,name-3836795,descr-3836795
-796,36796,49,name-3836796,descr-3836796
-797,36797,36,name-3836797,descr-3836797
-798,36798,8,name-3836798,descr-3836798
+840,$,2,US Dollar,"Primary reserve currency, used in the United States and globally"
+978,€,2,Euro,"Currency of the Eurozone, adopted by 20 EU countries"
+392,¥,0,Japanese Yen,"Official currency of Japan, no minor units (e.g., ¥1000)"
+826,£,2,British Pound,"Currency of the United Kingdom, also called Pound Sterling"
+036,A$,2,Australian Dollar,"Official currency of Australia and Pacific island nations"

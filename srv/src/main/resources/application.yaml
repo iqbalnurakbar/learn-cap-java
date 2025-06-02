@@ -1,7 +1,16 @@
-
 ---
 spring:
-  config.activate.on-profile: default
-  sql.init.platform: h2
+  config.activate.on-profile: sqlite
+  web.resources.static-locations: "file:./app"
+  sql.init:
+    mode: never
+    schema-locations: classpath:schema-sqlite.sql
+  datasource:
+    url: "jdbc:sqlite:./db/sqlite.db"
+    driver-class-name: org.sqlite.JDBC
+    hikari:
+      maximum-pool-size: 1
+      max-lifetime: 0
 cds:
-  data-source.auto-config.enabled: false
+  odata-v4:
+    lazy-i18n.enabled: true

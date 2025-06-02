@@ -7,10 +7,11 @@ using {
 namespace com.iqbal.cap;
 
 entity Authors : cuid, managed {
-  name  : String;
-  bio   : String;
-  books : Association to many Books
-            on books.author = $self
+  name      : String;
+  bio       : String;
+  isDeleted : Boolean default false;
+  books     : Association to many Books
+                on books.author = $self;
 
 }
 

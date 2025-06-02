@@ -36,3 +36,6 @@ Content-Type: application/json
   "stock": 10
 
 }
+
+### Delete
+DELETE http://localhost:8080/odata/v4/books/Authors(4145b609-2bb9-4f2a-9269-bed81b7318a0)
